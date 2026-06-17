@@ -1,0 +1,15 @@
+{
+    "name": "assouan/socks5-proxy-socket",
+    "description": "SOCKS5 proxy socket transport for the A PHP libraries.",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.5",
+        "assouan/socket": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "A\\": "src/A/"
+        }
+    }
+}
